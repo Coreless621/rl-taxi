@@ -50,6 +50,6 @@ The goal is to teach an agent how to efficiently pick up and drop off passengers
 
 ---
 
-##Note
+## Note
 
 I used a Gymnasium wrapper `RecordVideo` to record the episodes of my agent. Since this is optional, you can remove it if you want to. 
