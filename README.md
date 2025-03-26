@@ -24,7 +24,7 @@ The goal is to teach an agent how to efficiently pick up and drop off passengers
 - **Learning type:** Tabular Q-learning
 - **Exploration:** Epsilon-greedy with exponential decay
 - **Update rule:**  
-  \( Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \cdot \max_a Q(s', a) - Q(s, a)] \)
+  Q(s, a) -> Q(s, a) + alpha [r + gamma * max Q(s', a) - Q(s, a)]
 - **Policy:** Greedy for evaluation
 
 ---
